@@ -264,17 +264,45 @@ main {
   margin-top: 1rem;
 }
 
+.recommandation-content hr {
+  margin-top: 1.5rem;
+}
+
 .recom-text {
   font-weight: bold;
+}
+
+.recom-levels {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .recom-levels span {
   color: lightslategray;
   font-size: 0.85rem;
+  margin-right: 1rem;
+}
+
+.recom-star {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
 }
 
 .recom-star ion-icon {
   color: orangered;
+  margin-right: 0.25rem;
+}
+
+.recom-star span {
+  margin-top: 0.25rem;
+  color: orangered;
+}
+.recom-star .little {
+  color: lightslategray;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
 }
 
 .recom-price span {
@@ -282,6 +310,38 @@ main {
   color: lightslategray;
   text-decoration: line-through;
   margin-left: 0.5rem;
+}
+
+.recom-profile {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#recomProfileNameAndPic {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0;
+}
+
+#recomProfileNameAndPic span {
+  font-size: 0.85rem;
+}
+
+.recom-image-profile {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+#recommandationCourses div.recom-save {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 
 /* ----------------- utility classes --------------- */
