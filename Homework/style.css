@@ -47,6 +47,7 @@ nav {
   margin-right: 1.5rem;
   cursor: pointer;
   transition: all 350ms ease-out;
+  font-size: 0.9rem;
 }
 
 .nav-anchors:hover {
@@ -90,7 +91,7 @@ header #profileAndBell {
   visibility: hidden;
 }
 
-.profile:hover .abosolute-to-profile {
+#profile:hover .abosolute-to-profile {
   visibility: visible;
 }
 
