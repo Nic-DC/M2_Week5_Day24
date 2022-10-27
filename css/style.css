@@ -1,19 +1,17 @@
+:root {
+  --color-dark-blue: #274c5b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-dark-blue);
+}
+
 #container {
   display: flex;
-  /* margin: 0 auto;
-  width: 800px; */
-}
-
-#container > div {
-  height: 200px;
-  width: 300px;
-  padding: 20px;
-}
-
-.red {
-  background-color: tomato;
-}
-
-.blue {
-  background-color: aqua;
 }

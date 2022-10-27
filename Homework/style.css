@@ -1,0 +1,106 @@
+:root {
+  --hero-background-color: #7153fa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: var(--hero-background-color);
+} */
+
+header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+#logoAndNav {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+header #profileAndBell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/* hero */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-inline: auto;
+  height: 40vh;
+  border: 1px saddlebrown solid;
+  background-color: var(--hero-background-color);
+}
+
+#heroContent {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+#heroImage {
+  width: 35%;
+  display: flex;
+  align-self: flex-end;
+}
+
+.hero-image {
+  width: 380px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* summary */
+#offerSummary {
+  width: 70%;
+  height: 10vh;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/* recommandation */
+#recommandation {
+  width: 100%;
+  height: 40vh;
+
+  background-color: #f5f4f8;
+}
+
+#recommandationContainer {
+  width: 70%;
+  margin-inline: auto;
+  padding-top: 3rem;
+}
+
+#recommandationCourses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
