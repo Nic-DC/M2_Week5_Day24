@@ -223,7 +223,6 @@ main {
 /* recommandation */
 #recommandation {
   width: 100%;
-  height: 40vh;
 
   background-color: #f5f4f8;
 }
@@ -246,6 +245,43 @@ main {
 
 .recom-image {
   width: 250px;
+  border-radius: 5px;
+}
+
+.recommandation-course {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.recommandation-content {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.recommandation-content div {
+  margin-top: 1rem;
+}
+
+.recom-text {
+  font-weight: bold;
+}
+
+.recom-levels span {
+  color: lightslategray;
+  font-size: 0.85rem;
+}
+
+.recom-star ion-icon {
+  color: orangered;
+}
+
+.recom-price span {
+  font-size: 0.85rem;
+  color: lightslategray;
+  text-decoration: line-through;
+  margin-left: 0.5rem;
 }
 
 /* ----------------- utility classes --------------- */
