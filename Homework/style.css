@@ -11,7 +11,6 @@
 body {
   font-family: "Inter", sans-serif;
 }
-
 header {
   width: 100%;
   padding: 1rem;
@@ -21,15 +20,20 @@ header {
   height: 10vh;
 }
 
-#logoAndNav {
+#\#logoAndNav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 60%;
 }
 
+#logoImage {
+  margin-right: 1.5rem;
+}
+
 .logo {
   width: 2em;
+  cursor: pointer;
 }
 
 nav {
@@ -40,6 +44,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: all 350ms ease-out;
+}
+
+.nav-anchors:hover {
+  transform: scale(1.1);
 }
 
 header #profileAndBell {
@@ -106,6 +117,20 @@ header #profileAndBell {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+#hamburger {
+  width: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch; */
+}
+
+#hamburger hr {
+  margin: 0 0 0.5rem 0;
+  color: dimgray;
+  visibility: hidden;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -286,4 +311,10 @@ main {
 .font-p {
   font-size: 0.85rem;
   margin: 0.25rem 0 0 0;
+}
+
+/* --------------------------------------
+                media queries
+------------------------------------------ */
+@media screen and (max-width: 540px) {
 }
