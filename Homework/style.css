@@ -87,10 +87,10 @@ header #profileAndBell {
   box-shadow: -2px 0px 5px 0px rgba(174, 164, 164, 0.75);
   -webkit-box-shadow: -2px 0px 5px 0px rgba(174, 164, 164, 0.75);
   -moz-box-shadow: -2px 0px 5px 0px rgba(174, 164, 164, 0.75);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
-.profile-image:hover .abosolute-to-profile {
+.profile:hover .abosolute-to-profile {
   visibility: visible;
 }
 
