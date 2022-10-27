@@ -22,29 +22,37 @@
       <!-- header -->
       <header>
         <div id="#logoAndNav">
-          <div id="#logo">logo</div>
+          <!-- <div id="#logo">logo</div> -->
+          <img src="/Homework/assets/logo.svg" alt="man in glasses logo" class="logo" />
           <nav>
-            <a>
-              <span>Name</span>
-              <img class="nav-icon" src="" alt="dropdown icon" />
+            <a class="nav-anchors links">
+              <span>Browse</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
             </a>
-            <a>
-              <span>Name</span>
-              <img class="nav-icon" src="" alt="dropdown icon" />
+            <a class="nav-anchors links">
+              <span>Landings</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
             </a>
-            <a>
-              <span>Name</span>
-              <img class="nav-icon" src="" alt="dropdown icon" />
+            <a class="nav-anchors links">
+              <span>Pages</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
             </a>
-            <a>
-              <span>Name</span>
-              <img class="nav-icon" src="" alt="dropdown icon" />
+            <a class="nav-anchors links">
+              <span>Accounts</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
             </a>
           </nav>
         </div>
         <div id="profileAndBell">
-          <div id="bell">bell</div>
-          <div id="profile">profile</div>
+          <div id="bell" class="round-div postion-relative">
+            <ion-icon name="notifications-outline"></ion-icon>
+            <div class="blue-point bell-point"></div>
+          </div>
+
+          <div id="profile" class="postion-relative">
+            <img src="/Homework/assets/avatar-8.jpg" alt="profile image" class="profile-image" />
+            <div class="blue-point profile-point"></div>
+          </div>
         </div>
       </header>
 
@@ -72,24 +80,24 @@
         <!-- summary -->
         <section id="offerSummary">
           <div class="summary summary1">
-            <div class="summary-img"><img src="" alt="summary image 1" /></div>
+            <div class="summary-img round-div"><ion-icon name="videocam-outline" class="big"></ion-icon></div>
             <div class="summary-text">
-              <h3>Summary head 1</h3>
-              <p>Summary text 1</p>
+              <h3 class="font-weight-h3">30 000 online courses</h3>
+              <p class="font-p">Summary text 1</p>
             </div>
           </div>
           <div class="summary summary2">
-            <div class="summary-img"><img src="" alt="summary image 2" /></div>
+            <div class="summary-img round-div"><ion-icon name="people-outline" class="big"></ion-icon></div>
             <div class="summary-text">
-              <h3>Summary head 2</h3>
-              <p>Summary text 2</p>
+              <h3 class="font-weight-h3">Expert instruction</h3>
+              <p class="font-p">Summary text 2</p>
             </div>
           </div>
           <div class="summary summary3">
-            <div class="summary-img"><img src="" alt="summary image 3" /></div>
+            <div class="summary-img round-div"><ion-icon name="time-outline" class="big"></ion-icon></div>
             <div class="summary-text">
-              <h3>Summary head 3</h3>
-              <p>Summary text 3</p>
+              <h3 class="font-weight-h3">Lifetime access</h3>
+              <p class="font-p">Summary text 3</p>
             </div>
           </div>
         </section>
@@ -98,24 +106,28 @@
         <!-- recommandation -->
         <section id="recommandation">
           <div id="recommandationContainer">
-            <h1>recommandation</h1>
+            <h2>Recommanded to you</h2>
             <div id="recommandationCourses">
               <div class="recommandation-course course1">
-                <img src="" alt="recommandation-course 1" />
+                <img src="/Homework/assets/course-graphql.jpg" alt="recommandation-course 1" class="recom-image" />
               </div>
               <div class="recommandation-course course2">
-                <img src="" alt="recommandation-course 2" />
+                <img src="/Homework/assets/course-javascript.jpg" alt="recommandation-course 2" class="recom-image" />
               </div>
               <div class="recommandation-course course3">
-                <img src="" alt="recommandation-course 3" />
+                <img src="/Homework/assets/course-node.jpg" alt="recommandation-course 3" class="recom-image" />
               </div>
               <div class="recommandation-course course4">
-                <img src="" alt="recommandation-course 4" />
+                <img src="/Homework/assets/course-laravel.jpg" alt="recommandation-course 4" class="recom-image" />
               </div>
             </div>
           </div>
         </section>
       </main>
     </div>
+
+    <!-- ion icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

@@ -23,14 +23,44 @@ header {
 
 #logoAndNav {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+
+.logo {
+  width: 2em;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-anchors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header #profileAndBell {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.profile-image {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.bell-point {
+  top: 2px;
+  right: 5px;
+}
+
+.profile-point {
+  bottom: 0;
+  right: 25px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -93,14 +123,62 @@ main {
   background-color: #f5f4f8;
 }
 
+#recommandation h2 {
+  font-size: 1.25rem;
+}
+
 #recommandationContainer {
   width: 70%;
   margin-inline: auto;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 #recommandationCourses {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.recom-image {
+  width: 250px;
+}
+
+/* ----------------- utility classes --------------- */
+/* header */
+.postion-relative {
+  position: relative;
+}
+.blue-point {
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+}
+
+/* summary */
+.round-div {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f9eedb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.big {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.font-weight-h3 {
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.font-p {
+  font-size: 0.85rem;
+  margin: 0.25rem 0 0 0;
 }
